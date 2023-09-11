@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('./Images/Gym\ Background\ Image.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: cursive;
+}
+
+.logo {
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 300px;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+.navbar {
+    /* border: 2px solid yellow; */
+    height: 100px;
+    width: 720px;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+.buttons {
+    /* border: 2px solid green; */
+    height: 100px;
+    width: 300px;
+    float: right;
+    position: relative;
+    top: 20px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    font-size: 22px;
+    margin: 28px;
+
+}
+
+.navbar ul li a {
+    color: rgb(208, 236, 50);
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+ul li a.active {
+    text-decoration: underline;
+}
+
+.active:hover {
+    color: rgb(255, 50, 50);
+    text-decoration: none !important;
+}
+
+.logo img {
+    width: 110px;
+    position: relative;
+    left: 90px;
+    top: 3px;
+    cursor: pointer;
+}
+
+.btn {
+    margin: 5px;
+    position: relative;
+    top: 37px;
+    left: 60px;
+    padding: 10px;
+    width: 90px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(208, 236, 50);
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover {
+    background-color: rgb(228, 241, 149);
+}
+
+.container {
+    border: 1px solid rgb(228, 241, 149);
+    margin: 200px 80px;
+    padding: 60px;
+    width: 41%;
+    border-radius: 30px;
+    text-align: center;
+    height: 300px;
+}
+
+div h1 {
+    margin-top: -50px;
+    color: rgb(208, 236, 50);
+}
+
+.form-group input {
+    width: 400px;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3e6062;
+    color: rgb(208, 236, 50);
+    font-size: 20px;
+    font-family: inherit;
+}
+
+.form-group ::placeholder {
+    color: rgb(208, 236, 50);
+}
+
+.form-group input:hover {
+    border: 1px solid rgb(208, 236, 50);
+}
+
+.form-group input:focus {
+    border: 1px solid rgb(208, 236, 50);
+    color: rgb(208, 236, 50);
+    outline: rgb(208, 236, 50);
+}
+
+
+.formBtn {
+    margin-top: 20px;
+    padding: 10px;
+    width: 90px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(208, 236, 50);
+    cursor: pointer;
+    font-family: inherit;
+}
